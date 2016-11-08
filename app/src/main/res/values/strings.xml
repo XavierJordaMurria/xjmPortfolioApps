@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">XJM Portfolio Android Apps</string>
+    <string name="MainTitle">My Nanodegree Apps:</string>
+    <string name="Popular_Movies">Popular Movies</string>
+    <string name="Stock_Hawk">Stock Hawk</string>
+    <string name="Build_it_Bigger">Build it Bigger</string>
+    <string name="Make_Your_App_Material">Make Your App Material</string>
+    <string name="Go_Ubiquitous">Go Ubiquitous</string>
+    <string name="Capstone">Capstone</string>
+    <string name="toastA">This project will launch my </string>
+    <string name="toastB">project.</string>
+</resources>
