@@ -36,51 +36,39 @@
 
                 <Button
                     android:text="@string/Popular_Movies"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:id="@+id/button"
-                    android:onClick="onCustomClick"/>
+                    android:onClick="onCustomClick"
+                    style="@style/BtnStyle"/>
 
                 <Button
                     android:text="@string/Stock_Hawk"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:id="@+id/button2"
-                    android:onClick="onCustomClick"/>
+                    android:onClick="onCustomClick"
+                    style="@style/BtnStyle"/>
 
                 <Button
                     android:text="@string/Build_it_Bigger"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:id="@+id/button3"
-                    android:onClick="onCustomClick"/>
+                    android:onClick="onCustomClick"
+                    style="@style/BtnStyle"/>
 
                 <Button
                     android:text="@string/Make_Your_App_Material"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:id="@+id/button4"
-                    android:onClick="onCustomClick"/>
+                    android:onClick="onCustomClick"
+                    style="@style/BtnStyle"/>
 
                 <Button
                     android:text="@string/Go_Ubiquitous"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:id="@+id/button5"
-                    android:onClick="onCustomClick"/>
+                    android:onClick="onCustomClick"
+                    style="@style/BtnStyle"/>
 
                 <Button
                     android:text="@string/Capstone"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:id="@+id/button6"
-                    android:onClick="onCustomClick"/>
+                    android:onClick="onCustomClick"
+                    style="@style/BtnStyle"/>
 
             </LinearLayout>
         </ScrollView>
