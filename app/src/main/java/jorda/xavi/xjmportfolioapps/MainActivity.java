@@ -2,42 +2,26 @@ package jorda.xavi.xjmportfolioapps;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener
+public class MainActivity extends AppCompatActivity
 {
-    Button btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix;
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btnOne = (Button) findViewById(R.id.button);
-        btnOne.setOnClickListener(this); // calling onClick() method
-
-        btnTwo = (Button) findViewById(R.id.button2);
-        btnTwo.setOnClickListener(this); // calling onClick() method
-
-        btnThree = (Button) findViewById(R.id.button3);
-        btnThree.setOnClickListener(this); // calling onClick() method
-
-        btnFour = (Button) findViewById(R.id.button4);
-        btnFour.setOnClickListener(this); // calling onClick() method
-
-        btnFive = (Button) findViewById(R.id.button5);
-        btnFive.setOnClickListener(this); // calling onClick() method
-
-        btnSix = (Button) findViewById(R.id.button6);
-        btnSix.setOnClickListener(this); // calling onClick() method
     }
 
-    @Override
-    public void onClick(View v)
+    public void onCustomClick(View v)
     {
+        Log.d(TAG,"view ID => " + v.toString());
+
         switch (v.getId())
         {
             case R.id.button:
@@ -75,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     private void triggerToast(String prj)
     {
-        Toast.makeText(this, getString(R.string.toastA) + prj + getString(R.string.toastB),
+        Toast.makeText(this, getString(R.string.toastA) + " " + prj + " " + getString(R.string.toastB),
                 Toast.LENGTH_LONG).show();
 
     }

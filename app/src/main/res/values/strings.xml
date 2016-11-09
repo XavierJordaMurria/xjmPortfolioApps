@@ -7,6 +7,6 @@
     <string name="Make_Your_App_Material">Make Your App Material</string>
     <string name="Go_Ubiquitous">Go Ubiquitous</string>
     <string name="Capstone">Capstone</string>
-    <string name="toastA">This project will launch my </string>
+    <string name="toastA">This button will launch my </string>
     <string name="toastB">project.</string>
 </resources>
